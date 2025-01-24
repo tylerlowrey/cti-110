@@ -25,11 +25,11 @@ sequenceDiagram
 ## Explanation of Sequence Diagram
 
 <b>Participants</b>
-- Vulnerable Device: This could be any device, such as an IoT device or a person's computer, that gets infected with malware designed to turn it into a bot for a botnet
-- Attacker: The threat actor that is using a BotNet (via control commands) to start a DDoS attack.
-- Firewall: A piece of software that sits between a webserver and incoming requests and filters requests based on rules. Firewalls can be configured to block specific IP addresses and IP address ranges or they can be configured to block requests based on other rulesets. Advanced firewalls employ machine learning algorithms that inspect the requests and block them based on the analysis of the algorithm. 
-- WebServer: A piece of software that accepts web requests (typically HTTP or HTTPS) and normally returns responses. A DDoS attack could overload the webserver itself by causing it to run out of available cpu resources trying to handle the requests or the attack could overload the network infrastructure the webserver relies on.
-- Normal User: Any person that is trying to access the webserver normally and may be unable to successfully interact with the webserver due to the DDoS attack
+- <b>Vulnerable Device:</b> This could be any device, such as an IoT device or a person's computer, that gets infected with malware designed to turn it into a bot for a botnet
+- <b>Attacker:</b> The threat actor that is using a BotNet (via control commands) to start a DDoS attack.
+- <b>Firewall:</b> A piece of software that sits between a webserver and incoming requests and filters requests based on rules. Firewalls can be configured to block specific IP addresses and IP address ranges or they can be configured to block requests based on other rulesets. Advanced firewalls employ machine learning algorithms that inspect the requests and block them based on the analysis of the algorithm. 
+- <b>WebServer:</b> A piece of software that accepts web requests (typically HTTP or HTTPS) and normally returns responses. A DDoS attack could overload the webserver itself by causing it to run out of available cpu resources trying to handle the requests or the attack could overload the network infrastructure the webserver relies on.
+- <b>Normal User:</b> Any person that is trying to access the webserver normally and may be unable to successfully interact with the webserver due to the DDoS attack
 
 <b>Steps of a DDoS attack</b>
 1. First, enough vulnerable devices must be added to the BotNet in order to perform an effective DDoS attack 
